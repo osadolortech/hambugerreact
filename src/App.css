@@ -11,8 +11,9 @@ body{
     padding: 20px;
 }
 
-
-
+.buger{
+    display: none;
+}
 .navContainer{
     display: flex;
     justify-content: space-around;
@@ -32,7 +33,8 @@ a{
     .buger{
         display: flex;
         z-index: 20;
-        margin: 0 5rem;
+        margin:0 5rem;
+        cursor: pointer;
     }
 
     /* .header{
